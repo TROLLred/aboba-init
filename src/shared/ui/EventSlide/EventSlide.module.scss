@@ -1,0 +1,25 @@
+.eventSlide {
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-12);
+  align-items: center;
+}
+
+.preview {
+  height: 207px;
+  width: 207px; // TODO: calculate;
+  border-radius: var(--spacing-12);
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  text-align: center;
+  color: var(--text-tertiary);
+}
+
+.title {
+  color: var(--text-primary);
+  font-weight: 600;
+}

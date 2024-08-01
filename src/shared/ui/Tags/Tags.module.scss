@@ -1,0 +1,46 @@
+.tags {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  padding: 16px 20px;
+  gap: 20px;
+}
+
+.navbar {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.navbarItem {
+  height: 28px;
+  padding: 5px 12px;
+  color: var(--text-secondary);
+  background: transparent;
+  border-radius: 50rem;
+  transition:
+    color var(--transition-base),
+    background var(--transition-base);
+}
+
+.navbarActiveItem {
+  color: white;
+  background: var(--accent-red);
+}
+
+.panel {
+  width: 100%;
+  display: none;
+}
+
+.activePanel {
+  display: block;
+}
+
+.activePanel {
+  display: flex;
+  height: 100%;
+  opacity: 1;
+  visibility: visible;
+}

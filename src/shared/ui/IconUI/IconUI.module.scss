@@ -1,0 +1,27 @@
+.icon {
+  svg {
+    width: var(--spacing-24);
+    height: var(--spacing-24);
+  }
+}
+
+.rounded {
+  // width: var(--spacing-32);
+  // height: var(--spacing-32);
+  border-radius: 50rem;
+  background: var(--gray-20);
+}
+
+.icon16 {
+  svg {
+    width: var(--spacing-16);
+    height: var(--spacing-16);
+  }
+}
+
+.icon24 {
+  svg {
+    width: var(--spacing-24);
+    height: var(--spacing-24);
+  }
+}

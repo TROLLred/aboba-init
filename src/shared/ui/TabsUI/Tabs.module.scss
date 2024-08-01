@@ -1,0 +1,58 @@
+.tabs {
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-16);
+}
+
+.nav {
+  position: relative;
+  display: flex;
+  height: 28px;
+  padding: var(--spacing-2);
+  background: var(--gray-20);
+  border-radius: var(--spacing-8);
+
+  &::before {
+    content: '';
+    position: absolute;
+    top: var(--spacing-2);
+    bottom: var(--spacing-2);
+    left: var(--start-pos);
+    width: var(--current-tab-width);
+    margin-left: var(--spacing-2);
+    z-index: 0;
+    background: var(--bg-page);
+    border-radius: var(--spacing-6);
+    transition:
+      width var(--transition-base),
+      left var(--transition-base);
+  }
+}
+
+.tab {
+  position: relative;
+  display: flex;
+  flex: 1 1 100%;
+  height: 100%;
+  align-items: center;
+  justify-content: center;
+  z-index: 1;
+  color: var(--text-tertiary);
+  transition: color var(--transition-base);
+}
+
+.activeTab {
+  color: var(--text-primary);
+}
+
+.panels {
+  position: relative;
+}
+
+.panel {
+  display: none;
+}
+
+.activePanel {
+  display: block;
+}

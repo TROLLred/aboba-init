@@ -1,0 +1,15 @@
+.tag {
+  height: 28px;
+  padding: 5px 12px;
+  color: var(--text-secondary);
+  background: transparent;
+  border-radius: 50rem;
+  transition:
+    color var(--transition-base),
+    background var(--transition-base);
+}
+
+.active {
+  color: white;
+  background: var(--accent-red);
+}

@@ -1,0 +1,69 @@
+.accordion {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.item {
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+.activeItem {
+  .head .chevron {
+    transform: rotate(180deg);
+  }
+
+  .panel {
+    margin-top: var(--spacing-4);
+    opacity: 1;
+  }
+}
+
+.head {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  gap: var(--spacing-16);
+  padding: var(--spacing-4) var(--section-offset);
+}
+
+.chevron {
+  display: flex;
+  fill: var(--gray-60);
+  transition: transform var(--transition-base);
+}
+
+.panel {
+  width: 100%;
+  opacity: 0;
+  overflow: hidden;
+
+  transition:
+    margin var(--transition-base),
+    height var(--transition-base),
+    opacity var(--transition-base);
+}
+
+.panelContent {
+  display: flex;
+  flex-direction: column;
+}
+
+.enterActive {
+  height: 0;
+}
+
+.enterDone {
+  height: 100%;
+}
+
+.exitActive {
+  height: 100%;
+}
+
+.exitDone {
+  height: 0;
+}

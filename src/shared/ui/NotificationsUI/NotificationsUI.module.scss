@@ -1,0 +1,46 @@
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.group {
+  color: #18181a80;
+}
+
+.img {
+  margin: auto 0;
+}
+
+.item {
+  display: flex;
+  flex-direction: row;
+  gap: 12px;
+  padding: 12px 0;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.date {
+  color: #18181a80;
+}
+
+.title {
+  color: #18181a;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.description {
+  color: #18181a80;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
