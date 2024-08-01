@@ -1,0 +1,16 @@
+.faq {
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-24);
+  padding: var(--spacing-16) var(--section-offset);
+}
+
+.title {
+  color: var(--text-primary);
+}
+
+.list {
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-16);
+}

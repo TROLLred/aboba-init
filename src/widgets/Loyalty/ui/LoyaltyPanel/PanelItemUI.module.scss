@@ -1,0 +1,14 @@
+.panelItem {
+  display: flex;
+  flex-direction: column;
+}
+
+.label {
+  color: var(--text-tertiary);
+}
+
+.value {
+  color: var(--text-primary);
+  display: flex;
+  gap: 2px;
+}
