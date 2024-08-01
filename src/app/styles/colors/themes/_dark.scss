@@ -1,0 +1,37 @@
+[data-theme='dark']:root {
+  /* Brand */
+  --button-primary: #6f55f2;
+  --button-secondary: #a9f;
+  --button-tertiary: #c0a0eb;
+
+  /* Text */
+  --text-primary: #fff;
+  --text-secondary: #ffffffb2;
+  --text-tertiary: #ffffff80;
+  --text-primary-contrast: #18181a;
+  --text-secondary-contrast: #18181ab2;
+  --text-tertiary-contrast: #18181a80;
+
+  /* Background */
+  --bg-page: #1f1e21;
+  --bg-cards: #2f2e33;
+  --bg-cards-secondary: #242327;
+  --bg-ios-modal: #0000007a;
+  --bg-android-modal: #0009;
+
+  /* Grayscale */
+  --gray-100: #fff;
+  --gray-90: #f2f2f7;
+  --gray-80: #e3e3e8;
+  --gray-70: #d1d1d5;
+  --gray-60: #a9a9ac;
+  --gray-50: #8e8e93;
+  --gray-40: #767680;
+  --gray-30: #525259;
+  --gray-20: #3c3c43;
+  --gray-15: #3c3c43;
+  --gray-0: #000;
+
+  /* Shadows */
+  --shadow-soft: 0 1px 40px 0 #0c00451a;
+}

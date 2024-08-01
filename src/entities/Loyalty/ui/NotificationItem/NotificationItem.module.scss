@@ -1,0 +1,33 @@
+.notificationItem {
+  display: flex;
+  justify-content: space-between;
+  gap: var(--spacing-12);
+  padding: var(--spacing-12) 0;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-2);
+}
+
+.title {
+  color: var(--text-primary);
+}
+
+.description {
+  color: var(--text-tertiary);
+}
+
+.preview {
+  margin: auto 0;
+  width: 40px;
+  height: 40px;
+  overflow: hidden;
+  border-radius: 4px;
+}
+
+.time {
+  padding: 3px 2px;
+  color: var(--text-tertiary);
+}

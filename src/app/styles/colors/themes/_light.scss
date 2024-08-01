@@ -1,0 +1,39 @@
+:root {
+  /* Brand */
+  --button-primary: #6029e5;
+  --button-secondary: #6029e5;
+  --button-tertiary: #8c37cf;
+
+  /* Text */
+  --text-primary: #18181a;
+  --text-secondary: #18181ab2;
+  --text-tertiary: #18181a80;
+  --text-primary-contrast: #fff;
+  --text-secondary-contrast: #ffffffb2;
+  --text-tertiary-contrast: #ffffff80;
+
+  /* Background */
+  --bg-page: #fff;
+  --bg-cards: #fff;
+  --bg-cards-secondary: #fff;
+  --bg-ios-modal: #0003;
+  --bg-android-modal: #0009;
+
+  /* Grayscale */
+  --gray-100: #000;
+  --gray-90: #3c3c43;
+  --gray-80: #525259;
+  --gray-70: #767680;
+  --gray-60: #8e8e93;
+  --gray-50: #a9a9ac;
+  --gray-40: #d1d1d5;
+  --gray-30: #e3e3e8;
+  --gray-20: #f2f2f7;
+  --gray-15: #f5f5f5;
+  --gray-0: #fff;
+
+  /* Shadows */
+  --shadow-light: 0 2px 12px 0 #0c00451f;
+  --shadow-hard: 0 4px 12px 0 #0c004529;
+  --shadow-soft: 0 1px 40px 0 #ece8e899;
+}

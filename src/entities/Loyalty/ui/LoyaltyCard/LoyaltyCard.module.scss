@@ -1,0 +1,15 @@
+.loyaltyCard {
+  display: flex;
+  justify-content: space-between;
+  padding: var(--spacing-12) var(--spacing-16);
+  background: var(--accent-red-gradient);
+  overflow: hidden;
+}
+
+.title {
+  color: var(--text-primary-contrast);
+}
+
+.label {
+  color: var(--text-secondary-contrast);
+}

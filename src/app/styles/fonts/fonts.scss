@@ -1,0 +1,45 @@
+/* SF-Pro-Display */
+$font-sf-pro-name: 'SF-Pro-Display';
+$font-sf-pro: $font-sf-pro-name, Arial, sans-serif;
+$fonts-sf-pro: (
+  'SF-Pro-Display-Thin': 100,
+  'SF-Pro-Display-Ultralight': 200,
+  'SF-Pro-Display-Light': 300,
+  'SF-Pro-Display-Regular': 400,
+  'SF-Pro-Display-Medium': 500,
+  'SF-Pro-Display-Semibold': 500,
+  'SF-Pro-Display-Bold': 700,
+  'SF-Pro-Display-Heavy': 800,
+  'SF-Pro-Display-Black': 900,
+);
+
+@each $font, $weight in $fonts-sf-pro {
+  @font-face {
+    font-family: $font-sf-pro-name;
+    src: url('/src/shared/assets/fonts/#{$font-sf-pro-name}/#{$font}.otf')
+      format('opentype');
+    font-weight: $weight;
+    font-style: normal;
+    font-display: swap;
+  }
+}
+
+/* Roboto */
+$font-roboto-name: 'Roboto';
+$font-roboto: $font-roboto-name, Arial, sans-serif;
+$fonts-roboto: (
+  'Roboto-Bold': 700,
+  'Roboto-Medium': 500,
+  'Roboto-Regular': 400,
+);
+
+@each $font, $weight in $fonts-roboto {
+  @font-face {
+    font-family: $font-roboto-name;
+    src: url('/src/shared/assets/fonts/#{$font-roboto-name}/#{$font}.ttf')
+      format('truetype');
+    font-weight: $weight;
+    font-style: normal;
+    font-display: swap;
+  }
+}

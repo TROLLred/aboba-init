@@ -1,0 +1,36 @@
+:root {
+  /* Offsets */
+  --section-offset: 20px;
+
+  /* Border Radius */
+  --border-radius-card: 12px;
+  --border-radius-button: 8px;
+  --border-radius-tab: 6px;
+
+  /* Spacings */
+  --spacing-2: 2px;
+  --spacing-3: 3px;
+  --spacing-4: 4px;
+  --spacing-6: 6px;
+  --spacing-8: 8px;
+  --spacing-10: 10px;
+  --spacing-12: 12px;
+  --spacing-13: 13px;
+  --spacing-16: 16px;
+  --spacing-20: 20px;
+  --spacing-24: 24px;
+  --spacing-32: 32px;
+  --spacing-40: 40px;
+  --spacing-48: 48px;
+  --spacing-60: 60px;
+
+  /* Indexes */
+
+  --backdrop-index: 100;
+  --popup-index: 100;
+
+  /* Animations */
+
+  --transition-duration: 0.3s;
+  --transition-base: var(--transition-duration) ease-in-out;
+}

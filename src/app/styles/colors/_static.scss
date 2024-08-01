@@ -1,0 +1,31 @@
+:root {
+  /* Accent */
+  --accent-red: #e7363c;
+  --accent-red-60: #eb5757;
+  --accent-red-10: #ffe8e0;
+  --accent-red-gradient: linear-gradient(
+    110.57deg,
+    #ff3b30 3.53%,
+    #cc1a10 100.94%
+  );
+  --accent-orange: #ff9500;
+  --accent-orange-60: #f2994a;
+  --accent-orange-10: #fff1d9;
+  --accent-yellow: #fc0;
+  --accent-yellow-60: #f6ce46;
+  --accent-yellow-10: #fff6d9;
+  --accent-green: #34c759;
+  --accent-green-60: #219653;
+  --accent-green-10: #daf7e0;
+  --accent-blue: #007aff;
+  --accent-blue-60: #2f80ed;
+  --accent-blue-10: #ebf1ff;
+  --accent-purple: #3a36b2;
+  --accent-purple-60: #3e3d7b;
+  --accent-purple-10: #8c89d3;
+
+  /* Static */
+  --static-bg-gradient-gray-start: #2f2e33;
+  --static-bg-gradient-gray-end: #585758;
+  --static-bg-gray-90: #3c3c43;
+}
