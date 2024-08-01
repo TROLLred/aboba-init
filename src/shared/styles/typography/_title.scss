@@ -1,0 +1,119 @@
+/* Regular / LargeTitle */
+@mixin large-title {
+  font-family: var(--font-family-main);
+  font-weight: 400;
+  line-height: 1.2;
+  font-size: 34px;
+  letter-spacing: 0.37px;
+}
+
+.large-title,
+%large-title {
+  @include large-title;
+}
+
+/* Bold / LargeTitle */
+@mixin large-title-bold {
+  @include large-title;
+  font-weight: 700;
+}
+
+.large-title-bold,
+%large-title-bold {
+  @include large-title-bold;
+}
+
+/* Regular / Title1 */
+@mixin title-1 {
+  font-family: var(--font-family-main);
+  font-weight: 400;
+  line-height: 1.19;
+  font-size: 28px;
+  letter-spacing: 0.36px;
+}
+
+.title-1,
+%title-1 {
+  @include title-1;
+}
+
+/* Bold / Title1 */
+@mixin title-1-bold {
+  @include title-1;
+  font-weight: 700;
+}
+
+.title-1-bold,
+%title-1-bold {
+  @include title-1-bold;
+}
+
+/* Regular / Title2 */
+@mixin title-2 {
+  font-family: var(--font-family-main);
+  font-weight: 400;
+  line-height: 1.19;
+  font-size: 24px;
+  letter-spacing: 0.36px;
+}
+
+.title-2,
+%title-2 {
+  @include title-2;
+}
+
+/* Bold / Title2 */
+@mixin title-2-bold {
+  @include title-2;
+  font-weight: 700;
+}
+
+.title-2-bold,
+%title-2-bold {
+  @include title-2-bold;
+}
+
+/* Regular / Title3 */
+@mixin title-3 {
+  font-family: var(--font-family-main);
+  font-weight: 400;
+  line-height: 1.19;
+  font-size: 22px;
+  letter-spacing: 0.35px;
+}
+
+.title-3,
+%title-3 {
+  @include title-3;
+}
+
+/* Bold / Title3 */
+@mixin title-3-bold {
+  @include title-3;
+  font-weight: 700;
+}
+
+.title-3-bold,
+%title-3-bold {
+  @include title-3-bold;
+}
+
+/* Regular / Title4 */
+@mixin title-4 {
+  font-family: var(--font-family-main);
+  font-weight: 400;
+  line-height: 1.19;
+  font-size: 20px;
+  letter-spacing: 0.38px;
+}
+
+.title-4,
+%title-4 {
+  @include title-4;
+}
+
+/* Bold / Title4 */
+.title-4-bold,
+%title-4-bold {
+  @include title-4;
+}

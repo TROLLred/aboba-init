@@ -1,0 +1,38 @@
+/* Regular / Headline */
+@mixin headline {
+  font-family: var(--font-family-main);
+  font-weight: 400;
+  line-height: 1.19;
+  font-size: 18px;
+  letter-spacing: -0.33px;
+}
+
+.headline,
+%headline {
+  @include headline;
+}
+
+/* Bold / Headline */
+.headline-bold,
+%headline-bold {
+  @include headline;
+}
+
+/* Regular / Subheadline */
+@mixin subheadline {
+  font-family: var(--font-family-main);
+  font-weight: 400;
+  line-height: 1.19;
+  font-size: 14px;
+}
+
+.subheadline,
+%subheadline {
+  @include subheadline;
+}
+
+/* Bold / Subheadline */
+.subheadline-bold,
+%subheadline-bold {
+  @include subheadline;
+}

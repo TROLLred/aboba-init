@@ -1,0 +1,44 @@
+/* Regular / Caption1 */
+@mixin caption-1 {
+  font-family: var(--font-family-main);
+  font-weight: 400;
+  line-height: 1.19;
+  font-size: 12px;
+}
+
+.caption-1,
+%caption-1 {
+  @include caption-1;
+}
+
+/* Bold / Caption1 */
+.caption-1-bold,
+%caption-1-bold {
+  @include caption-1;
+}
+
+/* Regular / Caption1 */
+@mixin caption-2 {
+  font-family: var(--font-family-main);
+  font-weight: 400;
+  line-height: 1.19;
+  font-size: 11px;
+}
+
+.caption-2,
+%caption-2 {
+  @include caption-2;
+}
+
+/* Bold / Caption1 */
+@mixin caption-2-bold {
+  font-family: var(--font-family-main);
+  line-height: 1.19;
+  font-weight: 700;
+  font-size: 11px;
+}
+
+.caption-2-bold,
+%caption-2-bold {
+  @include caption-2-bold;
+}

@@ -1,0 +1,63 @@
+/* Regular / Nav-Text */
+@mixin nav-text {
+  font-family: var(--font-family-main);
+  font-weight: 400;
+  line-height: 1.19;
+  font-size: 17px;
+  letter-spacing: 0.35px;
+}
+
+.nav-text,
+%nav-text {
+  @include nav-text;
+}
+
+/* Bold / Nav-Text */
+@mixin nav-text-bold {
+  @include nav-text;
+  font-weight: 700;
+}
+
+.nav-text-bold,
+%nav-text-bold {
+  @include nav-text-bold;
+}
+
+/* Regular / Button */
+@mixin button-text {
+  font-family: var(--font-family-main);
+  font-weight: 400;
+  line-height: 1.19;
+  font-size: 16px;
+}
+
+.button-text,
+%button-text {
+  @include button-text;
+}
+
+/* Bold / Button */
+.button-text-bold,
+%button-text-bold {
+  @include button-text;
+}
+
+/* Regular / Footnote */
+@mixin footnote {
+  font-family: var(--font-family-main);
+  font-weight: 400;
+  line-height: 1.19;
+  font-size: 13px;
+  letter-spacing: -0.08px;
+}
+
+.footnote,
+%footnote {
+  @include footnote;
+}
+
+/* Bold / Footnote */
+.footnote-bold,
+%footnote-bold {
+  @include footnote;
+}

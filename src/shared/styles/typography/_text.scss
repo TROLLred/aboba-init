@@ -1,0 +1,44 @@
+/* Regular / Text */
+@mixin text {
+  font-family: var(--font-family-main);
+  font-weight: 400;
+  line-height: 1.19;
+  font-size: 16px;
+}
+
+.text,
+%text {
+  @include text;
+}
+
+@mixin text-bold {
+  font-family: var(--font-family-main);
+  font-weight: 600;
+  line-height: 1.19;
+  font-size: 16px;
+}
+
+/* Bold / Text */
+.text-bold,
+%text-bold {
+  @include text-bold;
+}
+
+/* Regular / Text Small */
+@mixin text-small {
+  font-family: var(--font-family-main);
+  font-weight: 400;
+  line-height: 1.19;
+  font-size: 14px;
+}
+
+.text-small,
+%text-small {
+  @include text-small;
+}
+
+/* Bold / Text Small */
+.text-small-bold,
+%text-small-bold {
+  @include text-small;
+}

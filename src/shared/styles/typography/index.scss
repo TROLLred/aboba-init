@@ -1,0 +1,10 @@
+@import 'caption';
+@import 'components';
+@import 'headline';
+@import 'text';
+@import 'title';
+
+/* NOTE:
+* От этих классов при разработке наследуемся через @extend, 
+* чтобы не переполнять бандл дубликатами css-кода (если бы работали через @include)
+*/
